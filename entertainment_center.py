@@ -27,19 +27,17 @@ sound_of_music = media.Movie("The Sound Of Music",
                              "https://upload.wikimedia.org/wikipedia/en/c/c6/Sound_of_music.jpg",
                              "https://www.youtube.com/watch?v=UY6uw3WpPzY")
 
-
-
-martian = media.Movie("Lion King",
+lion_king = media.Movie("Lion King",
 		      "The Lion King tells the story of Simba, a young lion who is to succeed his father, Mufasa, as king",
 		      "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",
                       "https://www.youtube.com/watch?v=4sj1MT05lAA")
 #captain_phillips.show_trailer()
 #avatar.show_trailer()
 #toy_story.show_trailer()
-#martian.show_trailer()
+#lion_king.show_trailer()
 #sound_of_music.show_trailer()
 #golden_pond.show_trailer()
 
-movies = [toy_story, avatar, captain_phillips, golden_pond, sound_of_music, martian ]
+movies = [toy_story, avatar, captain_phillips, golden_pond, sound_of_music, lion_king]
 
 fresh_tomatoes.open_movies_page(movies)
